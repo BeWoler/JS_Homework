@@ -414,7 +414,7 @@ footer ul li img {
 	vertical-align: middle;
 	margin-right: 10px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
 	div.left_content {
 		display: none;
 	}
