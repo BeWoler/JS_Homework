@@ -111,7 +111,7 @@ div.mobile_menu {
   padding: 80px 0;
   list-style: none;
   background-color: #ECEFF1;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
   transition-duration: 0.25s;
 }
 .menu_item {
@@ -456,7 +456,7 @@ footer ul li img {
 		width: 120px;
 	}
 	.user_nav {
-		margin-left: 0px;
+		margin-left: 0;
 	}
 	.content_header > img {
 		margin-left: 10px;
