@@ -29,19 +29,25 @@ function Cat(name) {
         console.log('Кот доволен ^_^');
     };
 
-   
+    var catLike = this.feed;
 
     var self = this;
 
-    
+    self.feed = function() {
+        catLike.call(this);
+        catHappy();
+        return self;
+    };
 
     self.stroke = function() {
         console.log('Гладим кота');
         return self;
     };
 
-    self.animalFeed = function() {
-        this.feed.call(this);
+    var animalFeed = this.feed;
+
+    self.feed = function() {
+        animalFeed.call(this);
         return self;
     }
 }
